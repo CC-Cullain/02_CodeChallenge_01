@@ -11,19 +11,19 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 
 
 let firstZahl = prompt("Bitte erste Zahl eingeben");
-    firstZahl = parseInt(firstZahl); // Umwandlung vom String in Integer Wert
+    firstZahl = parseFloat(firstZahl); // Umwandlung vom String in Float Wert
 
 let secondZahl = prompt("Bitte zweite Zahl eingeben"); 
-    secondZahl = parseInt(secondZahl); // Umwandlung vom String in Integer Wert
+    secondZahl = parseFloat(secondZahl); // Umwandlung vom String in Float Wert
 /*
-Konvertierung in Integer ist wichtig damit es als Zahl erkannt
+Konvertierung in Float ist wichtig damit es als Zahl erkannt
 und somit als Rechenvariable gesehen wird
 */
 
 // If Abfrage damit unterschiedliche Zahlen gewählt werden
 if (firstZahl == secondZahl) {
         let secondZahl = prompt("Nimm ne andere Zahl");
-            secondZahl = parseInt(secondZahl);
+            secondZahl = parseFloat(secondZahl);
 }
 
 
@@ -34,7 +34,7 @@ console.log("Die Summe ist: " + summe);
 //Zusatzabfrage ob die Summe korrekt ist
 
 let richtig = prompt("Welche Summe haben sie errechenet?")
-    richtig = parseInt(richtig);
+    richtig = parseFloat(richtig);
 
 
 if (summe == richtig) {
