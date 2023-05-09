@@ -11,10 +11,15 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 
 
 let firstZahl = prompt("Bitte erste Zahl eingeben");
-firstZahl =  parseInt(firstZahl);
+firstZahl =  parseInt(firstZahl); // Umwandlung vom String in Integer Wert
 
-let secondZahl = prompt("Bitte zweite Zahl eingeben");
-secondZahl = parseInt(secondZahl);
+let secondZahl = prompt("Bitte zweite Zahl eingeben"); 
+secondZahl = parseInt(secondZahl); // Umwandlung vom String in Integer Wert
+
+/*
+Konvertierung in Integer ist wichtig damit es als Zahl erkannt
+ und somit als Rechenvariable gesehen wird
+ */
 
 let summe = firstZahl + secondZahl;
 
