@@ -22,7 +22,7 @@ und somit als Rechenvariable gesehen wird
 
 // If Abfrage damit unterschiedliche Zahlen gewählt werden
 if (firstZahl == secondZahl) {
-        let secondZahl = prompt("Nimm ne andere Zahl")
+        let secondZahl = prompt("Nimm ne andere Zahl");
             secondZahl = parseInt(secondZahl);
 }
 
